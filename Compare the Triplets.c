@@ -23,21 +23,18 @@ int main(){
     else if (a0 < b0)
         b_score++;
     else{}
-        //no op
         
     if (a1 > b1)
         a_score++;
     else if (a1 < b1)
         b_score++;
     else {}
-        //no op
 
     if (a2 > b2)
         a_score++;
     else if (a2 < b2)
         b_score++;
     else {}
-        //no op
     
     printf("%d %d",a_score, b_score);            
     return 0;
